@@ -1,6 +1,6 @@
 # Claude Code v2.1.88 — Source Code Analysis
 
-> **Disclaimer**: All source code in this repository is the intellectual property of **Anthropic PBC**. This repository is provided strictly for technical research, study, and educational exchange among enthusiasts. **Commercial use is strictly prohibited.** No individual, organization, or entity may use this content for commercial purposes, profit-making activities, illegal activities, or any other unauthorized scenarios. If any content infringes upon your legal rights, intellectual property, or other interests, please contact us and we will verify and remove it immediately.
+> **Disclaimer**: All source code in this repository is the intellectual property of **Anthropic and Claude**. This repository is provided strictly for technical research, study, and educational exchange among enthusiasts. **Commercial use is strictly prohibited.** No individual, organization, or entity may use this content for commercial purposes, profit-making activities, illegal activities, or any other unauthorized scenarios. If any content infringes upon your legal rights, intellectual property, or other interests, please contact us and we will verify and remove it immediately.
 
 > Extracted from npm package `@anthropic-ai/claude-code` version **2.1.88**.
 > The published package ships a single bundled `cli.js` (~12MB). The `src/` directory in this repo contains the **unbundled TypeScript source** extracted from the npm tarball.
@@ -183,9 +183,9 @@ These are internal prompt templates and documentation, never published.
 ## Copyright & Disclaimer
 
 ```
-Copyright (c) Anthropic PBC. All rights reserved.
+Copyright (c) Anthropic. All rights reserved.
 
-All source code in this repository is the intellectual property of Anthropic.
+All source code in this repository is the intellectual property of Anthropic and Claude.
 This repository is provided strictly for technical research and educational purposes.
 Commercial use is strictly prohibited.
 
@@ -926,4 +926,4 @@ This source is **not directly compilable** from this repo alone:
 
 ## License
 
-All source code in this repository is copyright **Anthropic PBC**. This repository is for technical research and education only. See the original npm package for full license terms.
+All source code in this repository is copyright **Anthropic and Claude**. This repository is for technical research and education only. See the original npm package for full license terms.
