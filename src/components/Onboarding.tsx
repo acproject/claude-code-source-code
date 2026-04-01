@@ -10,7 +10,7 @@ import { normalizeApiKeyForConfig } from '../utils/authPortable.js';
 import { getCustomApiKeyStatus } from '../utils/config.js';
 import { env } from '../utils/env.js';
 import { isRunningOnHomespace } from '../utils/envUtils.js';
-import { PreflightStep } from '../utils/preflightChecks.js';
+import { isPreflightCheckEnabled, PreflightStep } from '../utils/preflightChecks.js';
 import type { ThemeSetting } from '../utils/theme.js';
 import { ApproveApiKey } from './ApproveApiKey.js';
 import { ConsoleOAuthFlow } from './ConsoleOAuthFlow.js';
@@ -114,7 +114,7 @@ export function Onboarding({
     goToNextStep();
   }
   const steps: OnboardingStep[] = [];
-  if (oauthEnabled) {
+  if (oauthEnabled && isPreflightCheckEnabled()) {
     steps.push({
       id: 'preflight',
       component: preflightStep

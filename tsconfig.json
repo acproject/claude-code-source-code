@@ -14,11 +14,10 @@
     "sourceMap": true,
     "jsx": "react-jsx",
     "outDir": "dist",
-    "rootDir": "src",
-    "baseUrl": ".",
+    "rootDir": ".",
     "paths": {
-      "bun:bundle": ["stubs/bun-bundle.ts"],
-      "src/*": ["src/*"]
+      "bun:bundle": ["./stubs/bun-bundle.ts"],
+      "src/*": ["./src/*"]
     },
     "types": ["node"],
     "lib": ["ES2022", "DOM"],
